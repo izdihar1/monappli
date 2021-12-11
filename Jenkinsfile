@@ -1,6 +1,6 @@
 pipeline{
   agent any
-  {tool name: 'D:\\apache-maven-3.8.3', type: 'maven'}
+ 
   stages{
     stage("Delete workspace"){
       steps{
